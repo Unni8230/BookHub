@@ -75,6 +75,27 @@ Use the following credentials to explore the app:
 
 > These credentials are for demo purposes only and provide access to the full app experience.
 ---
+## 📸 Screenshots
+
+### 🔐 Login Page (Desktop)
+![Login](https://res.cloudinary.com/dyareetre/image/upload/v1751468007/Bookhub_Login_bqsihn.png)
+
+### 🔐 Login Page (Mobile)
+![Login](https://res.cloudinary.com/dyareetre/image/upload/v1751468006/Bookhub_Login_sm_me9icm.png)
+
+### 📱 Home Page (Desktop)
+![Home](https://res.cloudinary.com/dyareetre/image/upload/v1751468006/Bookhub_Home_s0gpu2.png)
+
+### 📱 Home Page (Mobile)
+![Home](https://res.cloudinary.com/dyareetre/image/upload/v1751468006/Bookhub_Home_sm_ocqydu.png)
+
+### 📚 Bookshelf Page
+![Bookshelves](https://res.cloudinary.com/dyareetre/image/upload/v1751468006/Bookhub_shelf_m4wfgq.png)
+
+### 📖 Book Item Details Page
+![BookDetails](https://res.cloudinary.com/dyareetre/image/upload/v1751468006/Bookhub_Item_lqttoa.png)
+
+---
 
 ## 🔐 Authentication Flow
 
