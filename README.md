@@ -66,6 +66,15 @@ npm start
 > ```
 
 ---
+## 🔐 Demo Credentials
+
+Use the following credentials to explore the app:
+
+- **Username:** rahul  
+- **Password:** rahul@2021
+
+> These credentials are for demo purposes only and provide access to the full app experience.
+---
 
 ## 🔐 Authentication Flow
 
