@@ -1,0 +1,347 @@
+.BookshelvesMainBgContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f7fa;
+  font-family: 'Inter';
+}
+
+.StyledLink {
+  text-decoration: none;
+  width: 50%;
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .StyledLink {
+    width: 100%;
+  }
+}
+
+.BookshelvesBgContainer {
+  display: flex;
+  height: 100vh;
+  padding: 25px;
+  background-color: #f5f7fa;
+}
+
+@media (max-width: 767px) {
+  .BookshelvesBgContainer {
+    flex-direction: column;
+  }
+}
+
+.BookshelvesMenuSection {
+  width: 22vw;
+  padding: 18px;
+  background-color: #ffffff;
+  height: 100vh;
+  margin-right: 28px;
+}
+
+@media (max-width: 767px) {
+  .BookshelvesMenuSection {
+    display: none;
+  }
+}
+
+.BookshelvesTitle {
+  color: #334155;
+  font-size: 20px;
+  font-weight: 550;
+}
+
+@media (max-width: 767px) {
+  .BookshelvesTitle {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+}
+
+.BookshelvesMenuUlListContainer {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+@media (max-width: 767px) {
+  .BookshelvesMenuUlListContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.BookshelvesMenuListItem {
+  margin: 8px;
+}
+@media (max-width: 767px) {
+  .BookshelvesMenuListItem {
+    min-width: 20%;
+    padding: 8px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    color: #0284c7;
+    border: 2px solid #0284c7;
+    background-color: transparent;
+    border-width: 1px;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .issmactive {
+    color: #ffffff;
+    background-color: #0284c7;
+    border: '';
+    border-width: 0px;
+  }
+}
+
+.BookshelvesAllBooksSection {
+  display: flex;
+  flex-direction: column;
+  width: 78vw;
+}
+
+@media (max-width: 767px) {
+  .BookshelvesAllBooksSection {
+    width: 100%;
+  }
+}
+
+.BookshelvesSearchSection {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.BookshelvesAllBooksHeading {
+  color: #334155;
+  font-size: 18px;
+}
+
+@media (max-width: 767px) {
+  .BookshelvesAllBooksHeading {
+    display: none;
+  }
+}
+
+.BookshelvesSearchContainer {
+  display: flex;
+  width: 25%;
+  height: 6vh;
+  border-radius: 8px;
+  border: 1px solid #babcbe;
+}
+
+@media (max-width: 767px) {
+  .BookshelvesSearchContainer {
+    width: 70%;
+  }
+}
+
+.SearchInput {
+  width: 80%;
+  padding-left: 15px;
+  height: 100%;
+  border-width: 0px;
+  background-color: #ffffff;
+}
+
+.SearchIconButton {
+  background-color: #edeff1;
+  width: 20%;
+  border-width: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.BookshelvesMenuSmContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .BookshelvesMenuSmContainer {
+    display: none;
+  }
+}
+
+.BookshelvesAllBooksDisplayContainer {
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+@media (max-width: 767px) {
+  .BookshelvesAllBooksDisplayContainer {
+    height: 50vh;
+  }
+}
+
+.BookshelvesEachBookItem {
+  display: flex;
+  width: 100%;
+  height: 30vh;
+  margin: 15px;
+  justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+  .BookshelvesEachBookItem {
+    width: 100%;
+    margin-top: 35px;
+    margin-left: 0px;
+  }
+}
+
+.BookItemThumbnail {
+  width: 40%;
+}
+@media (max-width: 767px) {
+  .BookItemThumbnail {
+    width: 39%;
+  }
+}
+
+.BookDetailsSection {
+  display: flex;
+  flex-direction: column;
+  padding-top: 8px;
+  width: 57%;
+  height: 90%;
+}
+@media (max-width: 767px) {
+  .BookDetailsSection {
+    padding-right: 10px;
+    width: 59%;
+  }
+}
+
+.Booktitle {
+  color: #334155;
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0px;
+}
+@media (max-width: 767px) {
+  .Booktitle {
+    font-size: 16px;
+  }
+}
+
+.BookAuthor {
+  color: #475569;
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+.BookratingSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  .BookratingSection {
+    width: 60%;
+  }
+}
+
+.BookRatingText {
+  color: #475569;
+  font-size: 12px;
+}
+
+.BookRatingValue {
+  color: #334155;
+  font-size: 14px;
+}
+
+.BookStatusSection {
+  display: flex;
+}
+
+.BookStatusText {
+  color: #475569;
+  font-size: 12px;
+  margin-right: 9px;
+}
+
+.BookStatusValue {
+  color: #0284c7;
+  font-size: 12px;
+}
+
+.BooksEmptyContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.BooksEmptyImage {
+  width: 60%;
+}
+
+.BookEmptyMsg {
+  color: #475569;
+  font-size: 24px;
+}
+
+@media (max-width: 767px) {
+  .BookEmptyMsg {
+    font-size: 16px;
+  }
+}
+
+.LoaderContainer {
+  display: flex;
+  height: 80vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomeErrorButton {
+  background-color: #0284c7;
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 8px;
+  align-self: center;
+  border-width: 0px;
+}
+
+.HomeErrorMsg {
+  color: #475569;
+  font-size: 16px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .HomeErrorMsg {
+    font-size: 12px;
+  }
+}
+
+.HomeErrorImage {
+  margin: auto;
+  width: 60%;
+}
+.menu-button {
+  background-color: transparent;
+  border-width: 0px;
+  color: #475569;
+  font-size: 16px;
+}
+.isactive {
+  color: #0284c7;
+}

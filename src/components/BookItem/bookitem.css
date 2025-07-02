@@ -1,0 +1,188 @@
+.BookDetailsBgContainer {
+  background-color: #f5f7fa;
+  height: 130vh;
+  width: 100%;
+  font-family: 'Inter';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.BookDetailsDisplayContainer {
+  background-color: #ffffff;
+  width: 75%;
+  margin-top: 35px;
+  height: 82vh;
+  margin: auto;
+  border-radius: 12px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 767px) {
+  .BookDetailsDisplayContainer {
+    background-color: transparent;
+    width: 100%;
+    height: 70vh;
+    margin-top: 12px;
+    padding-top: 20px;
+  }
+}
+
+.BookThumbnailTitleContainer {
+  display: flex;
+  height: 32vh;
+  margin-bottom: 18px;
+  align-self: center;
+}
+
+@media (max-width: 767px) {
+  .BookThumbnailTitleContainer {
+    flex-direction: column;
+    width: 100%;
+    height: 75vh;
+  }
+}
+
+.BookItemThumbnail {
+  width: 13vw;
+  height: 32vh;
+  margin-right: 15px;
+  border-radius: 12px;
+}
+
+@media (max-width: 767px) {
+  .BookItemThumbnail {
+    align-self: center;
+    width: 42vw;
+    height: 35vh;
+    margin-bottom: 18px;
+  }
+}
+
+.BookItemTitleSection {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media (max-width: 767px) {
+  .BookItemTitleSection {
+    align-items: center;
+  }
+}
+
+.BookTitle {
+  color: #334155;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+@media (max-width: 767px) {
+  .BookTitle {
+    font-size: 24px;
+  }
+}
+
+.BookAuthor {
+  color: #475569;
+  font-size: 20px;
+  margin: 8px;
+  margin-left: 0px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 767px) {
+  .BookAuthor {
+    font-size: 16px;
+  }
+}
+
+.BookRatingSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  .BookRatingSection {
+    width: 25%;
+  }
+}
+
+.BookRatingText {
+  color: #475569;
+  font-size: 12px;
+}
+
+.BookRatingValue {
+  color: #334155;
+  font-size: 14px;
+}
+
+.BookStatusSection {
+  display: flex;
+  height: 3vh;
+  margin-top: 0px;
+  align-items: center;
+}
+
+.BookStatusText {
+  color: #475569;
+  font-size: 12px;
+  margin-right: 9px;
+}
+
+.BookStatusValue {
+  color: #0284c7;
+  font-size: 16px;
+}
+
+@media (max-width: 767px) {
+  .BookStatusValue {
+    font-size: 15px;
+  }
+}
+
+.HorizondalLine {
+  color: #94a3b8;
+  width: 100%;
+}
+
+.AboutSection {
+  width: 100%;
+}
+
+.AboutHeading {
+  color: #334155;
+  font-size: 22px;
+}
+
+@media (max-width: 767px) {
+  .AboutHeading {
+    font-size: 16px;
+  }
+}
+
+.AboutDescription {
+  color: #475569;
+  font-size: 14px;
+}
+
+@media (max-width: 767px) {
+  .AboutDescription {
+    font-size: 12px;
+  }
+}
+
+.LoaderContainer {
+  display: flex;
+  height: 80vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

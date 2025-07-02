@@ -1,0 +1,96 @@
+.BookhubLoginContainer {
+  display: flex;
+  background-color: #f8fafc;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .BookhubLoginContainer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+.BookhubLgImage {
+  width: 40%;
+}
+
+@media (max-width: 767px) {
+  .BookhubLgImage {
+    display: none;
+  }
+}
+
+.BookhubSmImage {
+  width: 40%;
+  align-self: center;
+}
+
+@media (min-width: 768px) {
+  .BookhubSmImage {
+    display: none;
+  }
+}
+
+.BookhubFormSection {
+  width: 45%;
+  background-color: #ffffff;
+  padding-bottom: 40px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .BookhubFormSection {
+    width: 100%;
+    background-color: transparent;
+  }
+}
+
+.BookhubLoginForm {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  width: 60%;
+  height: 55vh;
+}
+
+.BookhubLogo {
+  width: 40%;
+  align-self: center;
+  margin: 25px;
+}
+
+.BookhubLoginFormLabel {
+  color: #5a7184;
+  font-size: 17px;
+}
+
+.BookhubLoginFormInput {
+  border: 1px solid #c3cad9;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 7px;
+  border-radius: 8px;
+}
+
+.BookhubLoginErrorMsg {
+  color: #ef4444;
+  font-size: 14px;
+  margin: 5px;
+}
+
+.BookhubLoginButton {
+  background-color: #0284c7;
+  color: #ffffff;
+  padding: 12px;
+  border-width: 0px;
+  border-radius: 8px;
+}

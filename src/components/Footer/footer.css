@@ -1,0 +1,31 @@
+.SocialmediaContactusContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+@media (max-width: 767px) {
+  .SocialmediaContactusContainer {
+    margin-top: 50px;
+  }
+}
+.SocialmediaIconsContainer {
+  width: 18%;
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 767px) {
+  .SocialmediaIconsContainer {
+    width: 33%;
+  }
+}
+.ContactusText {
+  font-size: 16px;
+  text-align: center;
+  color: #3d3c3c;
+}
+@media (max-width: 767px) {
+  .ContactusText {
+    font-size: 12px;
+  }
+}
